@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheets/head.css">
+    <link rel="stylesheet" href="stylesheets/order.css">
+    <title>我的购物车</title>
+</head>
+<body>
+    <div class="wrap">
+        <!-- 头部 -->
+        <div class="header">
+            <div class="h_container">
+                <h1 class="h_h1">
+                    <a href="index.html">
+                        <img src="https://www.fromphoto.com/wp-content/uploads/2019/09/logo.png" class="h_logo">
+                    </a>
+                </h1>
+                <div class="h_menu">
+                    <ul class="h_ul">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="forum.html">论坛</a></li>
+                        <li><a href="shop.html">商店</a></li>
+                        <li class="find"><a href="#">发现&nbsp;∨</a>
+                                <ul class="h_find_ul">
+                                <li><a href="special.html">专题</a></li>
+                                <li><a href="bubbling.html">冒泡</a></li>
+                                <li><a href="activity.html">活动</a></li>
+                            </ul>
+                            
+                        </li>
+                        <li><a href="photographer.html">摄影师</a></li>
+                    </ul>
+                </div>
+                <div class="h_Btn_box">
+                    <button class="login_btn">登录</button>
+                    <button class="reg_btn">注册</button>
+                </div>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="content">
+            <div class="address_box">
+            <div class="address">请选择收货地址</div>
+            <div class="address_list">
+                <!-- 选择地址 -->
+                <div class="address_chose">
+                    <!-- 三级联动 -->
+                    <div class="select">
+                        省：<select id="province"></select>
+                        市：<select id="city"></select> 
+                        区：<select id="qu"></select>
+                    </div>
+                    <!-- 地址 -->
+                    <p class="p_box">
+                        <span>地址：</span>
+                        <input type="text" class="ipt_address">
+                    </p>
+                    <!-- 联系人 -->
+                    <p class="p_box">
+                        <span>联系人：</span>
+                        <input type="text">
+                    </p>
+                    <!-- 电话 -->
+                    <p class="p_box">
+                        <span>电话：</span>
+                        <input type="text">
+                    </p>
+                    <!-- 按钮 -->
+                    <p>
+                        <span class="s_left"></span>
+                        <button class="add">添加</button>
+                        <button class="cancel">取消</button>
+                    </p>
+                </div>
+                <!-- 地址管理 -->
+                <div class="management">
+                    <button class="shop_address">
+                       <i>+</i>&nbsp;添加收货地址
+                    </button>
+                    <a href="#">地址管理</a>
+                </div>
+            </div>
+        </div>
+        <!-- 操作 -->
+        <div class="operation_box">
+            <div class="cart_box">
+                <div class="cart_common cart_current">
+                   <p><img src="images/car/car.png" class="car_elves"></p> 
+                   <span>我的购物车</span>
+                </div>
+
+                <div class="arrow">&gt;</div>
+
+                <div class="cart_common">
+                    <p><img src="images/car/calc.png" class="car_elves"></p>
+                    <span>结算</span>
+                </div>
+
+                <div class="arrow">&gt;</div>
+
+                <div class="cart_common">
+                    <p><img src="images/car/money.png" class="car_elves"></p>
+                    <span>支付结果</span>
+                </div>
+
+            </div>
+        </div>
+        <!-- title -->
+        <div class="user_head">
+            <div class="caozuo">操作</div>
+            <div class="name">名称</div>
+            <div class="price">价格</div>
+            <div class="count">数量</div>
+            <div class="allprice">总价</div>
+            <div class="caozuo_del">操作</div>
+        </div>
+        <!-- 商品列表 -->
+        <div class="shoplist">
+            <ul class="list_ul">
+               
+            </ul>
+        </div>
+        <!-- 留言 -->
+        <div class="message_box">
+            <textarea placeholder="给卖家留言"></textarea>
+        </div>
+        <div class="bottom_box">
+            <div class="b_left_box">
+                <button class="all_btn">
+                    <input type="checkbox" class="all_ipt">
+                    <span>全选</span>
+                </button>
+                <span class="selected">已选<b class="sel_num">0</b>件</span>
+            </div>
+            <div class="b_right_box">
+                <span>总价：￥<b>0</b></span>
+                <button>结算</button>
+            </div>
+        </div>
+        <!-- 这是content的div -->
+        </div>
+<div class="zhezhao"></div>
+<img src="images/car/weixin.jpg" class="weixin">
+
+
+
+
+
+
+
+        <!-- 底部 -->
+        <footer class="f_footer">
+            <div class="f_container">
+                <div class="f_menu">
+                    <ul class="f_ul">
+                        <li><a href="introduction.html">网站简介</a></li>
+                        <li>网站地图</li>
+                        <li>全部标签</li>
+                        <li>友情链接</li>
+                        <li>财富排行</li>
+                        <li>在线留言</li>
+                    </ul>
+                </div>
+                <div class="f_copy">
+                    <div class="f_left">
+                        <p class="fl_p">Copyright © 2018 - 2019 
+                            <span class="f_xin">♥</span>
+                            <span>城市暗角</span>
+                        </p>
+                      <p>粤ICP备16020046号-3</p>
+                    </div>
+                    <div class="f_right">
+                        <img src="https://www.fromphoto.com/wp-content/uploads/2019/09/logo.png" alt="城市暗角" class="f_img">
+                        <p>提供摄影师,摄影故事等方面的精彩文章</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/city.js"></script>
+    <script src="javascripts/order.js"></script>
+</body>
+</html>

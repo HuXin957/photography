@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>摄影商店-正版摄影</title>
+    <link rel="stylesheet" href="stylesheets/shop.css">
+</head>
+<body>
+    <div class="wrap">
+        <!-- 头部 -->
+        <div class="header">
+            <div class="h_container">
+                <h1 class="h_h1">
+                    <a href="index.html">
+                        <img src="https://www.fromphoto.com/wp-content/uploads/2019/09/logo.png" class="h_logo">
+                    </a>
+                </h1>
+                <div class="h_menu">
+                    <ul class="h_ul">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="forum.html">论坛</a></li>
+                        <li><a href="shop.html">商店</a></li>
+                        <li class="find"><a href="#">发现&nbsp;∨</a>
+                                <ul class="h_find_ul">
+                                <li><a href="special.html">专题</a></li>
+                                <li><a href="bubbling.html">冒泡</a></li>
+                                <li><a href="activity.html">活动</a></li>
+                            </ul>
+                            
+                        </li>
+                        <li><a href="photographer.html">摄影师</a></li>
+                    </ul>
+                </div>
+                <div class="h_Btn_box">
+                    <button class="login_btn">登录</button>
+                    <button class="reg_btn">注册</button>
+                </div>
+            </div>
+        </div>
+<!-- 内容 -->
+<main>
+    <div class="c_container">
+        <!-- 左模块 -->
+        <div class="c_left">
+            <!-- 上 -->
+            <div class="c_left_t">
+                <!-- 轮播图盒子 -->
+                <div class="s_box">
+                    
+                </div>
+            </div>
+            <!-- 下 -->
+            <div class="c_left_b">
+                <div class="tab_top">
+                    <ul class="list_ul">
+                        <li><a href="#" class="current">出售</a></li>
+                        <li><a href="#">抽奖</a></li>
+                        <li><a href="#">兑换</a></li>
+                    </ul>
+                </div>
+
+                <div class="list_bottom">
+                    <div class="caption">
+                        <a href="#" class="c_all">全部 ❯</a>
+                    </div>
+                    <!-- 商品列表 -->
+                    <div class="card">
+                        <ul class="card_ul">
+                            <!-- <li> 
+                                <div class="card_box">
+                                    <a href="#">
+                                        <div class="card_trumb">
+                                            
+                                            <div class="card_img "><img src="images/indeximgs/10.jpg" class="card_trumb_in"></div>  
+                                        </div>      
+                                    </a>
+                                    <div class="shop_list_title"> 
+                                        <h4><a href="#">Bill Brandt: 《光之影》（shadow of the light）</a></h4>
+                                    </div>
+                                    <div class="c_price">
+                                        <div class="price_num">
+                                            ¥<b>500</b>
+                                        </div>
+                                       
+                                        <div class="pop_up">
+                                            <div class="pop_num">
+                                                <span>已售：<b>1</b></span>
+                                            </div>
+                                            <div class="pop_btn">
+                                                <a href="#" id='p_buy'>购买</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </li>  -->
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 右模块 -->
+        <div class="c_right"></div>
+    </div>
+</main>
+<!-- 底部 -->
+<footer class="f_footer">
+    <div class="f_container">
+        <div class="f_menu">
+            <ul class="f_ul">
+                <li><a href="introduction.html">网站简介</a></li>
+                <li>网站地图</li>
+                <li>全部标签</li>
+                <li>友情链接</li>
+                <li>财富排行</li>
+                <li>在线留言</li>
+            </ul>
+        </div>
+        <div class="f_copy">
+            <div class="f_left">
+                <p class="fl_p">Copyright © 2018 - 2019 
+                    <span class="f_xin">♥</span>
+                    <span>城市暗角</span>
+                </p>
+              <p>粤ICP备16020046号-3</p>
+            </div>
+            <div class="f_right">
+                <img src="https://www.fromphoto.com/wp-content/uploads/2019/09/logo.png" alt="城市暗角" class="f_img">
+                <p>提供摄影师,摄影故事等方面的精彩文章</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="javascripts/jquery.js"></script>
+<script src="javascripts/shop.js"></script>
+<script src="javascripts/slider.js"></script>
+<script>
+     new slider({
+            selector:'.s_box',
+            w:790,
+            h:270,
+            speed:1000,
+            txt:["城市暗角官网等级说明","城市暗角官方说明"],
+            num:2,
+            times:['2019-1-1 13:12','2019-1-1 16:23'],
+            imgsrc:["https://one.fromphoto.com/wp-content/uploads/2019/02/15671358108884273_200967826.jpg","https://one.fromphoto.com/wp-content/uploads/2019/02/15661855974605968_200967826.jpg"]
+        })
+        $('.list_ul li a').on('click',function(){
+            $(this).addClass('current').parent().siblings().children().removeClass('current')
+        })
+</script>
+</body>
+</html>

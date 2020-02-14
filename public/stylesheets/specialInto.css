@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.specialinto_01 {
+    /* background: green; */
+    margin-top: 20px;
+    padding: 0;
+}
+
+.specialinto_01_01 {
+    height: 220px;
+    /* background: yellow; */
+    padding: 0;
+    background-image: url("https://www.fromphoto.com/wp-content/uploads/bfi_thumb/15b5e5beeae2d26_cat-6rnd6agkq1880212b4yeklxzn7ukebk6hfrg9oet8yg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    word-wrap: break-word;
+    word-break: break-all;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: Optima-Regular, PingFang SC, Microsoft YaHei, WenQuanYi Micro Hei, Arial, Helvetica, sans-serif;
+    color: both;
+}
+
+.specialinto_01_01 h1 {
+    font-size: 24px;
+    padding: 80px 20px 0 100px;
+}
+
+.specialinto_01_01 p {
+    font-size: 13px;
+    padding: 10px 0 0 100px;
+}
+
+.specialinto_01_right {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.specialinto_01_right_01 {
+    height: 322px;
+    padding: 0;
+}
+
+.specialinto_01_right_01 ul {
+    height: 100%;
+    padding: 0;
+}
+
+.specialinto_01_right_01 ul li {
+    width: 276px;
+    ;
+    margin-bottom: 10px;
+}
+
+.specialinto_01_right_01_img {
+    height: 200px;
+    padding: 0
+}
+
+.specialinto_01_right_01_img img {
+    width: 100%;
+    height: 100%;
+    padding: 0
+}
+
+.specialinto_01_right_01_title {
+    height: 112px;
+    background: white;
+    padding: 0;
+    color: #c7c7c7;
+    font-size: 13px;
+}
+
+.specialinto_01_right_01_title p {
+    padding: 15px 10px 0 15px;
+}
+
+.specialinto_01_right_01_title p:nth-of-type(2) {
+    margin-top: -18px;
+}
+
+.specialinto_01_right_01_title p:nth-of-type(1) a {
+    color: #888888;
+    font-size: 13px;
+}
+
+.specialinto_01_right_01_title p:nth-of-type(2) a {
+    font-size: 15px;
+    color: #555555;
+}
+
+/* 右边样式 */
+
+.specialinto_01_left {
+    width: 270px;
+    margin-top: 10px;
+    background: #f1f1f1;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.specialinto_01_left .bq {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #cccc;
+}
+
+.tagcloud a {
+    font-size: 12px;
+    color: #555555;
+}
+
+.specialinto_01_left_01 {
+    background: white;
+    padding: 0 0 10px 0
+}
+
+.specialinto_01_left_02{
+    background: red;
+    height: 300px;
+    margin-top: 10px;
+}
